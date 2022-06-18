@@ -1,0 +1,48 @@
+Arguments: 
+  /home/vano20/.nvm/versions/node/v14.15.1/bin/node /home/vano20/.nvm/versions/node/v14.15.1/bin/yarn
+
+PATH: 
+  /home/vano20/Android/Sdk/emulator:/home/vano20/Android/Sdk/tools:/home/vano20/Android/Sdk/tools/bin:/home/vano20/Android/Sdk/platform-tools:/home/vano20/.nvm/versions/node/v14.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.11.9-hotspot/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/xampp:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/xampp/php:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Kubernetes/Minikube:/mnt/c/Program Files/OpenJDK/openjdk-8u282-b08/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/ASUS/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Exercism:/mnt/c/Users/ASUS/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ASUS/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/ASUS/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/home/vano20/.yarn/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/home/vano20/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:141289:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "ant-design-vue": "^2.2.7",
+      "axios": "^0.21.4",
+      "core-js": "^3.6.5",
+      "vue": "^3.0.0",
+      "vue-router": "^4.0.6"
+    },
+    "devDependencies": {
+      "@vue/compiler-sfc": "^3.2.11",
+      "laravel-mix": "^6.0.31",
+      "vue-loader": "^16.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
